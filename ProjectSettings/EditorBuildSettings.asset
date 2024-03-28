@@ -5,7 +5,22 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
-  m_configObjects: {}
+  - enabled: 0
+    path: Assets/Samples/XR Interaction Toolkit/2.5.1/Starter Assets/DemoScene.unity
+    guid: 319dafa5c80f29f428dc1e0d03f04177
+  - enabled: 0
+    path: Assets/Scenes/Archery Test.unity
+    guid: e58d495adcdb34844a089e54f075401a
+  - enabled: 1
+    path: Assets/Scenes/ArcheryScene.unity
+    guid: 2ff6636254c5e5f46acd710bcaf8490c
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 34954eb55b723f6439967fb8b80c2a89,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 2673e7bc04e1d44449a90a6ffcb4c2f8,
+      type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: ced34a90eaae3c04f87d30beb6c167af,
+      type: 2}
