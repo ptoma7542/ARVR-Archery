@@ -46,7 +46,10 @@ public class MovingTarget : MonoBehaviour, IHittable
         {
             rb.isKinematic = false;
             stopped = true;
+            GameManager.incrementScore();
         }
+
+
     }
 
     private void FixedUpdate()
